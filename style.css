@@ -304,6 +304,7 @@ h1 {
     background: var(--info-box-bg);
     border-radius: 12px;
     overflow-y: auto; /* Allow scrolling if content overflows */
+    text-align: center; /* ADD THIS LINE */
 }
 
 
@@ -363,6 +364,7 @@ h1 {
 .accuracy {
     font-size: 1.1rem;
     margin: 0.5rem 0;
+    text-align: center; /* ADD THIS LINE */
 }
 
 .guess-history {
@@ -754,7 +756,9 @@ h1 {
 #final-score {
     font-size: 1.2rem;
     margin: 0.5rem 0;
+    text-align: center; /* ADD THIS LINE */
 }
+
 .guess-detail {
     margin-bottom: 0.5rem;
     font-size: 1rem;
